@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F6F1D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    height: 58vh;
+    width: 53vh;
+    margin-top: 15vh;
+    padding: 2vh 2vh 2vh 2vh;
+    border-radius: 2vh;
+}
+
+.drop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+}
+
+#ent-amount{
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+.from select,.to select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 4vh;
+    border-radius: 1.5vh;
+}
+
+.para{
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    font-size: 2.5vh;
+}
+input{
+    border: 1px solid lightgray;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 3vh;
+}
+
+.form select{
+    border: none;
+    outline: none;
+}
+
+.select-contain{
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 2vh;
+    margin-top: 1vh;
+}
+
+.from select,.to select{
+    margin-top: 1.6vh;
+}
+
+button{
+    cursor: pointer;
+    background-color: #B21368;
+    color: white;
+    height: 5vh;
+    margin-bottom: 3vh;
+}
+
+.select-contain img {
+    max-width: 7vh;
+}
+
+.h2con{
+    margin-top: 2vh;
+}
+
+.drop i{
+    font-size: 2.5vh;
+    margin-top: 2.5vh;
+    margin-right: 2vh;
+}
